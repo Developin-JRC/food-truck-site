@@ -3,15 +3,27 @@
 }
 
 .lead {
-    font-size: 1.125rem;
+    font-size: 1.125rem; /*phone size*/
 }
 
 @media (min-width:768px) {
     .hero-title {
-        font-size: 4.5rem;
+        font-size: 4.5rem; 
     }
 
     .lead {
-        font-size: 1.5rem;
+        font-size: 1.5rem; /*big screen size */
     }
 }
+/*About rem. 
+rem is a size based on the browser's normal text size, which is usually 16px. 
+If someone sets bigger text in their browser, everything in rem grows with it, so rem is kinder than px.
+ rem        About   Good for 
+ 1rem       16px    Normal sentences. Don't go smaller on phones.
+ 1.125rem   18px    An intro sentence on phones 
+ 1.25rem    20px    Bootstrap's lead
+ 1.5rem     24px    An intro sentence on big screens 
+ 2.5rem     40px    The main heading on phones 
+ 4.5rem     72px    The main heading on big screens 
+ Rule of thumb: keep sentences at 1rem or more on phones,
+ and make the big-screen size about 1.25 to 1.5 times bigger.*/
