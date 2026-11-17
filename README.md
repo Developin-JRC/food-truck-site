@@ -1,0 +1,9 @@
+## What changes at each breakpoint
+
+- Phones: ...
+- From md (768px): ...
+- From lg (992px): ...
+-  the menu cards are in 1 column,
+-  the Visit us boxes are stacked, and the heading is 2.5rem.
+- From md (768px): the cards go to 2 columns, the Visit us boxes sit side by side, there's more padding, the heading grows to 4.5rem, and the lead grows to 1.5rem.
+- From lg (992px): the cards go to 3 columns, and the main area gets more space on the sides.
